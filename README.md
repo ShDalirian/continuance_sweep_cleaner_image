@@ -1,8 +1,8 @@
-# continuancely clean image to extracte only Meaningful pixels
+# continuously clean image to extracte only Meaningful pixels
 first of all i apologize for my english. I am an electrical engineering PhD student in university of Tehran, Iran.<br/> 
 The way the code works is as follows:<br />
  1. define sweep windows size.<br />
- 2. start to sweep continuncely in x, y.<br />
+ 2. start to sweep continuously in x, y.<br />
  3. if there is a window that the text_pixel/total_pixel is within the specified range this window will pass the filter and copy in new image named cleared_image.<br />
  4. the original image and the cleared image will be demonstrated in vertical way.<br />
 In addition, the next idea is that if the number of black pixels on the white background of the image is greater than a limit (which we specified with the name "symbol_pixel_ratio") in this case, that window will be identified as the window containing the symbol and will be deleted.<br />
@@ -23,5 +23,6 @@ here is some examples:<br />
 ### example 1:
 original image is:<br />!["original image"](gray_image.jpg)<br /><br />
 cleaned image is:<br />![cleaned image](cleaned_img.jpg)<br /><br />
-if it is not continunce the output image will be: <br />![discrete cleaned img](discrete_cleaned_img.jpg)<br /><br />
-the code for discrete image cleaner is here: https://github.com/ShDalirian/windows_cleaner_image.git
+if it is not continuous the output image will be: <br />![discrete cleaned img](discrete_cleaned_img.jpg)<br /><br />
+as it can be seen the continuous cleaner is more successfull than the discrete one.<br/>
+the code for discrete image cleaner is here, if you want: https://github.com/ShDalirian/windows_cleaner_image.git
