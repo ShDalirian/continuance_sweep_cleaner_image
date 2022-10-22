@@ -23,4 +23,6 @@ here is some examples:<br />
 ### example 1:
 <kbd>original image is:<br />!["original image"](gray_image.jpg)<br /><br />
 cleaned image is:<br />![cleaned image](cleaned_img.jpg)<br /><br />
+<kbd/>
 if it is not continunce the output image will be: <br />![discrete cleaned img](discrete_cleaned_img.jpg)<br /><br /> discrete_cleaned_img
+the code for discrete image cleaner is here: https://github.com/ShDalirian/windows_cleaner_image.git
