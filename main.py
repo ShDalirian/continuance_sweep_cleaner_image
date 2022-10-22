@@ -4,7 +4,7 @@ import numpy as np
 from windows_cleaner import *
 
 gray=cv2.imread("gray_image.jpg")
-cleaned_img=continuance_image_cleaner(gray)
+cleaned_img=continuous_image_cleaner(gray)
 if gray.shape[2]>1:
     gray = cv2.cvtColor(gray,cv2.COLOR_BGR2GRAY)
 total=cv2.vconcat([gray,cleaned_img])

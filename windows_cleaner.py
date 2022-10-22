@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-def continuance_image_cleaner(img,text_pixel_ratio:int=20,symbol_pixel_ratio:int=70,x_step:int=18,y_step:int=25,is_background_white:bool=True, crop_around:bool=True):
+def continuous_image_cleaner(img,text_pixel_ratio:int=20,symbol_pixel_ratio:int=70,x_step:int=18,y_step:int=25,is_background_white:bool=True, crop_around:bool=True):
     #split image to sub boxes and delete some ratio part
     if is_background_white:
         cleaned_img=255*np.ones((img.shape[0],img.shape[1]),dtype=np.uint8)
